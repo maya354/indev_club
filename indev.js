@@ -6,7 +6,7 @@ const logo = document.getElementById("logo");
 if (localStorage.getItem("theme")) {
   const savedTheme = localStorage.getItem("theme");
   page.className = savedTheme;
-  updateTheme(savedTheme);
+  updateTheme(savedTheme); 
   toggleInput.checked = savedTheme === "dark";
 }
 toggleInput.addEventListener("change", () => {

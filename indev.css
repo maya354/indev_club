@@ -598,7 +598,7 @@ body.dark .contact-footer-text {
   border-top: 2px solid rgba(106, 27, 154, 0.3); /* subtle purple line */
 }
 
-body.light .site-footer {
+body.light .site-footer { 
   color: #4a148c;
 }
 
